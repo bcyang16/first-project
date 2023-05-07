@@ -1,0 +1,111 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+
+
+/* 로그인 화면 사용 CSS */
+.login-box-locate {
+    position:relative;
+    left:200px;
+    top:200px;
+}
+
+.login-box {
+    width: 300px;
+    height: 300px;
+    border-radius: 4px;
+    background: #fff;
+    position: relative;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.login-text{
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 3.125rem;
+    letter-spacing: normal;
+    color: #005bd3;
+    height:40px;
+    position:relative;
+    top:-20px;
+
+}
+
+.login-id-box {
+    padding: 0 12px;
+    background: rgb(232, 228, 228);
+    border-radius: 4px 4px 0 0;
+    width:252px;
+    height: 56px;
+}
+
+.login-button {
+    width: 268px;
+    height: 36px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.715em;
+    background-color: #4caf50;
+    color:white;
+    position:relative;
+    left:15px;
+}
+
+/* 장비등록 화면 사용 CSS */
+
+.create-div {
+    display:flex;
+    align-items: center;
+    position:relative;
+    left:50px;
+    top:90px;   
+}
+
+.create-input {
+    position : relative;
+    left:30px;
+
+    
+}
+
+.create-main {
+    width:1000px;
+
+
+
+
+}
+
+.create-text {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 3.125rem;
+    letter-spacing: normal;
+    color: #005bd3;
+    height:40px;
+    position:relative;
+    top:50px;
+    left : 30px;
+
+}
+
+.create-align {
+    width:250px;
+}
+
+.create-button {
+    width: 268px;
+    height: 36px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.715em;
+    background-color: #4caf50;
+    color:white;
+    position:relative;
+    top:50px;
+    left:80px; 
+}
